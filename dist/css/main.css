@@ -72,3 +72,18 @@ img {
         color: white; }
         #showcase-home .container .showcase-content a:hover {
           opacity: 0.95; }
+
+#main-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem 0;
+  background: #333; }
+  #main-footer .links .fab {
+    padding-right: 1.5rem;
+    color: white; }
+    #main-footer .links .fab:hover {
+      color: #f73859;
+      cursor: pointer; }

@@ -115,3 +115,25 @@ img {
     }
   }
 }
+
+// footer
+
+#main-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem 0;
+  background: #333;
+
+  .links .fab {
+    padding-right: 1.5rem;
+    color: white;
+
+    &:hover {
+      color: #f73859;
+      cursor: pointer;
+    }
+  }
+}
