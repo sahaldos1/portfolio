@@ -89,7 +89,28 @@ img {
       }
       .showcase-content {
         text-align: center;
-        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+        h1 {
+          font-size: 3rem;
+
+          strong {
+            border-bottom: 3px #f73859 solid;
+          }
+        }
+
+        a {
+          padding: 1rem 2rem;
+          background-color: #333;
+          color: white;
+
+          &:hover {
+            opacity: 0.95;
+          }
+        }
       }
     }
   }

@@ -58,4 +58,17 @@ img {
       margin: auto; }
     #showcase-home .container .showcase-content {
       text-align: center;
-      margin: auto; }
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center; }
+      #showcase-home .container .showcase-content h1 {
+        font-size: 3rem; }
+        #showcase-home .container .showcase-content h1 strong {
+          border-bottom: 3px #f73859 solid; }
+      #showcase-home .container .showcase-content a {
+        padding: 1rem 2rem;
+        background-color: #333;
+        color: white; }
+        #showcase-home .container .showcase-content a:hover {
+          opacity: 0.95; }
