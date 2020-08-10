@@ -4,8 +4,7 @@
 
 body {
   line-height: 1.5;
-  font-family: "Dosis", sans-serif;
-  background: white; }
+  font-family: "Dosis", sans-serif; }
 
 a {
   text-decoration: none; }
@@ -17,8 +16,8 @@ img {
   width: 100%; }
 
 #header-home {
-  background: #a1eafb;
-  color: #333; }
+  background: #333;
+  color: white; }
   #header-home #main-nav {
     display: flex;
     flex-direction: row;
@@ -29,14 +28,34 @@ img {
       flex-direction: row;
       justify-content: center;
       align-items: center; }
-      #header-home #main-nav ul .current {
-        border-color: #f73859; }
       #header-home #main-nav ul li {
         padding-right: 1.5rem; }
         #header-home #main-nav ul li a {
-          color: #333;
+          color: white;
           text-transform: uppercase;
           border-bottom: 3px transparent solid;
           transition: border-color 0.5s; }
           #header-home #main-nav ul li a:hover {
             border-color: #f73859; }
+          #header-home #main-nav ul li a.current {
+            border-color: #f73859; }
+
+#showcase-home {
+  text-align: center;
+  background: url("../images/background.jpeg") no-repeat center right/cover;
+  height: 100vh; }
+  #showcase-home .container {
+    padding: 0 6rem;
+    padding-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    height: 70vh; }
+    #showcase-home .container img {
+      border-radius: 15px;
+      height: 300px;
+      width: 300px;
+      margin: auto; }
+    #showcase-home .container .showcase-content {
+      text-align: center;
+      margin: auto; }

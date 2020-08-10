@@ -1,5 +1,6 @@
 // Variables
 $website-width: 1280px;
+$bg-image: url("../images/background.jpeg");
 
 // General Styles
 * {
@@ -10,7 +11,6 @@ $website-width: 1280px;
 body {
   line-height: 1.5;
   font-family: "Dosis", sans-serif;
-  background: white;
 }
 
 a {
@@ -28,8 +28,8 @@ img {
 // Header
 #header {
   &-home {
-    background: #a1eafb;
-    color: #333;
+    background: #333;
+    color: white;
 
     #main-nav {
       display: flex;
@@ -43,15 +43,11 @@ img {
         justify-content: center;
         align-items: center;
 
-        .current {
-          border-color: #f73859;
-        }
-
         li {
           padding-right: 1.5rem;
 
           a {
-            color: #333;
+            color: white;
             text-transform: uppercase;
             border-bottom: 3px transparent solid;
             transition: border-color 0.5s;
@@ -59,8 +55,41 @@ img {
             &:hover {
               border-color: #f73859;
             }
+
+            &.current {
+              border-color: #f73859;
+            }
           }
         }
+      }
+    }
+  }
+}
+
+// Showcase
+#showcase {
+  &-home {
+    text-align: center;
+    background: $bg-image no-repeat center right / cover;
+    height: 100vh;
+
+    .container {
+      padding: 0 6rem;
+      padding-top: 3rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 1rem;
+      height: 70vh;
+
+      img {
+        border-radius: 15px;
+        height: 300px;
+        width: 300px;
+        margin: auto;
+      }
+      .showcase-content {
+        text-align: center;
+        margin: auto;
       }
     }
   }
