@@ -79,6 +79,43 @@ img {
         #showcase-home .container .showcase-content a:hover {
           opacity: 0.95; }
 
+#about-main {
+  text-align: center;
+  padding: 3rem 0; }
+  #about-main .container .section-title {
+    font-size: 2rem;
+    display: block;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    font-weight: 100;
+    text-transform: uppercase; }
+  #about-main .container .lead {
+    font-size: 1.3rem;
+    margin-bottom: 2rem; }
+  #about-main .container .bottom-line {
+    height: 2px;
+    width: 3rem;
+    background: #f73859;
+    display: block;
+    margin: 0 auto 1rem auto; }
+  #about-main .container .about-info {
+    display: grid;
+    grid-template-areas: "bioimage bio bio" "aw1 aw2 aw3";
+    grid-gap: 1.2rem; }
+    #about-main .container .about-info .bio-image {
+      grid-area: bioimage; }
+    #about-main .container .about-info .bio {
+      grid-area: bio;
+      background: #f4f4f4;
+      border-left: 3px solid #f73859;
+      padding: 0.8rem; }
+    #about-main .container .about-info .img-1 {
+      grid-area: aw1; }
+    #about-main .container .about-info .img-2 {
+      grid-area: aw2; }
+    #about-main .container .about-info .img-3 {
+      grid-area: aw3; }
+
 #main-footer {
   display: flex;
   flex-direction: row;
