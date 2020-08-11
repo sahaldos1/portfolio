@@ -82,6 +82,7 @@ img {
   padding: 1rem 0;
   background: #333; }
   #main-footer .links .fab {
+    text-align: center;
     padding-right: 1.5rem;
     color: white; }
     #main-footer .links .fab:hover {
