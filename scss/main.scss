@@ -37,6 +37,15 @@ img {
       justify-content: space-between;
       padding: 1rem 1.5rem;
 
+      h1 {
+        transition: all 150ms ease;
+      }
+
+      h1:hover {
+        font-weight: lighter;
+        color: #f73859;
+      }
+
       ul {
         display: flex;
         flex-direction: row;
@@ -50,10 +59,11 @@ img {
             color: white;
             text-transform: uppercase;
             border-bottom: 3px transparent solid;
-            transition: border-color 0.5s;
+            transition: all 0.5s;
 
             &:hover {
               border-color: #f73859;
+              font-size: 1.2rem;
             }
 
             &.current {

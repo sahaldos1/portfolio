@@ -23,6 +23,11 @@ img {
     flex-direction: row;
     justify-content: space-between;
     padding: 1rem 1.5rem; }
+    #header-home #main-nav h1 {
+      transition: all 150ms ease; }
+    #header-home #main-nav h1:hover {
+      font-weight: lighter;
+      color: #f73859; }
     #header-home #main-nav ul {
       display: flex;
       flex-direction: row;
@@ -34,9 +39,10 @@ img {
           color: white;
           text-transform: uppercase;
           border-bottom: 3px transparent solid;
-          transition: border-color 0.5s; }
+          transition: all 0.5s; }
           #header-home #main-nav ul li a:hover {
-            border-color: #f73859; }
+            border-color: #f73859;
+            font-size: 1.2rem; }
           #header-home #main-nav ul li a.current {
             border-color: #f73859; }
 
