@@ -135,6 +135,17 @@ img {
             color: #f73859;
             border-bottom: none; }
 
+#experience .page-container {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  margin: 2rem 0;
+  grid-gap: 1.5rem; }
+  #experience .page-container .card {
+    padding: 1rem; }
+
+#experience .page-container > *:first-child {
+  grid-row: 1 / span 3; }
+
 #main-footer {
   display: flex;
   flex-direction: row;
