@@ -230,6 +230,9 @@ img {
     .card {
       padding: 1rem;
 
+      h2 {
+        text-align: center;
+      }
       .experiences-container .work-done table li {
         padding-left: 1rem;
       }
@@ -254,20 +257,38 @@ img {
           border-radius: 10px;
           box-shadow: 2px 2px 4px 0 #333;
           margin-top: 2rem;
+
+          h5 {
+            padding-left: 1rem;
+          }
+
+          p {
+            padding-left: 2rem;
+          }
         }
       }
 
       .project {
-        background: #dddddd;
+        background: #f4f4f4;
         border-left: 3px solid #f73859;
         padding: 0.8rem;
         border-radius: 10px;
         box-shadow: 2px 2px 4px 0 #333;
 
+        p {
+          padding-left: 1.5rem;
+          padding-bottom: 0.5rem;
+        }
+
+        #last-p-project {
+          padding-bottom: 1rem;
+        }
+
         a {
           padding: 0.5rem 1rem;
           background-color: #333;
           color: white;
+          margin-left: 3.9rem;
 
           &:hover {
             background-color: white;
