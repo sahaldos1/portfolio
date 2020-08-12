@@ -106,7 +106,7 @@ img {
     margin: 0 auto 1rem auto; }
   #about-main .container .about-info {
     display: grid;
-    grid-template-areas: "bioimage bio bio" "aw1 aw2 aw3";
+    grid-template-areas: "bioimage bio bio";
     grid-gap: 1.2rem; }
     #about-main .container .about-info img {
       border-radius: 10px;
@@ -118,6 +118,7 @@ img {
       background: #f4f4f4;
       border-left: 3px solid #f73859;
       padding: 0.8rem;
+      border-radius: 10px;
       box-shadow: 2px 2px 4px 0 #333; }
       #about-main .container .about-info .bio h4 {
         padding-bottom: 0.5rem; }
@@ -125,12 +126,14 @@ img {
           border-bottom: 2px #f73859 solid; }
       #about-main .container .about-info .bio p {
         padding-bottom: 1.5rem; }
-    #about-main .container .about-info .img-1 {
-      grid-area: aw1; }
-    #about-main .container .about-info .img-2 {
-      grid-area: aw2; }
-    #about-main .container .about-info .img-3 {
-      grid-area: aw3; }
+        #about-main .container .about-info .bio p a {
+          color: black;
+          border-bottom: 1px #f73859 solid;
+          transition: all 5ms ease-in; }
+          #about-main .container .about-info .bio p a:hover {
+            font-weight: bold;
+            color: #f73859;
+            border-bottom: none; }
 
 #main-footer {
   display: flex;

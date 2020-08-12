@@ -162,9 +162,7 @@ img {
 
     .about-info {
       display: grid;
-      grid-template-areas:
-        "bioimage bio bio"
-        "aw1 aw2 aw3";
+      grid-template-areas: "bioimage bio bio";
       grid-gap: 1.2rem;
 
       // Grid Area
@@ -183,6 +181,7 @@ img {
         background: #f4f4f4;
         border-left: 3px solid #f73859;
         padding: 0.8rem;
+        border-radius: 10px;
         box-shadow: 2px 2px 4px 0 #333;
 
         h4 {
@@ -195,19 +194,19 @@ img {
 
         p {
           padding-bottom: 1.5rem;
+
+          a {
+            color: black;
+            border-bottom: 1px #f73859 solid;
+            transition: all 5ms ease-in;
+
+            &:hover {
+              font-weight: bold;
+              color: #f73859;
+              border-bottom: none;
+            }
+          }
         }
-      }
-
-      .img-1 {
-        grid-area: aw1;
-      }
-
-      .img-2 {
-        grid-area: aw2;
-      }
-
-      .img-3 {
-        grid-area: aw3;
       }
     }
   }
