@@ -178,6 +178,18 @@ img {
         background: #f4f4f4;
         border-left: 3px solid #f73859;
         padding: 0.8rem;
+
+        h4 {
+          padding-bottom: 0.5rem;
+
+          span {
+            border-bottom: 2px #f73859 solid;
+          }
+        }
+
+        p {
+          padding-bottom: 1.5rem;
+        }
       }
 
       .img-1 {

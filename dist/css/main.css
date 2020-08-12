@@ -115,6 +115,12 @@ img {
       background: #f4f4f4;
       border-left: 3px solid #f73859;
       padding: 0.8rem; }
+      #about-main .container .about-info .bio h4 {
+        padding-bottom: 0.5rem; }
+        #about-main .container .about-info .bio h4 span {
+          border-bottom: 2px #f73859 solid; }
+      #about-main .container .about-info .bio p {
+        padding-bottom: 1.5rem; }
     #about-main .container .about-info .img-1 {
       grid-area: aw1; }
     #about-main .container .about-info .img-2 {
