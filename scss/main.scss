@@ -215,6 +215,10 @@ img {
 // Experiences page
 
 #experience {
+  .container #experience-heading {
+    text-align: center;
+  }
+
   .page-container {
     display: grid;
     grid-template-columns: 5fr 2fr;
@@ -223,6 +227,10 @@ img {
 
     .card {
       padding: 1rem;
+
+      .experiences-container .work-done table li {
+        padding-left: 1rem;
+      }
     }
   }
 

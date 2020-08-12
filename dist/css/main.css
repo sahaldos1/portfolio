@@ -135,6 +135,9 @@ img {
             color: #f73859;
             border-bottom: none; }
 
+#experience .container #experience-heading {
+  text-align: center; }
+
 #experience .page-container {
   display: grid;
   grid-template-columns: 5fr 2fr;
@@ -142,6 +145,8 @@ img {
   grid-gap: 1.5rem; }
   #experience .page-container .card {
     padding: 1rem; }
+    #experience .page-container .card .experiences-container .work-done table li {
+      padding-left: 1rem; }
 
 #experience .page-container > *:first-child {
   grid-row: 1 / span 3; }
