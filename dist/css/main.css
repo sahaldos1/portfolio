@@ -136,7 +136,9 @@ img {
             border-bottom: none; }
 
 #experience .container #experience-heading {
-  text-align: center; }
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 3rem; }
 
 #experience .page-container {
   display: grid;
@@ -147,6 +149,37 @@ img {
     padding: 1rem; }
     #experience .page-container .card .experiences-container .work-done table li {
       padding-left: 1rem; }
+    #experience .page-container .card .experiences-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly; }
+      #experience .page-container .card .experiences-container .work-done {
+        background: #f4f4f4;
+        border-left: 3px solid #f73859;
+        padding: 0.8rem;
+        border-radius: 10px;
+        box-shadow: 2px 2px 4px 0 #333; }
+      #experience .page-container .card .experiences-container .tech-skills {
+        background: #f4f4f4;
+        border-left: 3px solid #f73859;
+        padding: 0.8rem;
+        border-radius: 10px;
+        box-shadow: 2px 2px 4px 0 #333;
+        margin-top: 2rem; }
+    #experience .page-container .card .project {
+      background: #dddddd;
+      border-left: 3px solid #f73859;
+      padding: 0.8rem;
+      border-radius: 10px;
+      box-shadow: 2px 2px 4px 0 #333; }
+      #experience .page-container .card .project a {
+        padding: 0.5rem 1rem;
+        background-color: #333;
+        color: white; }
+        #experience .page-container .card .project a:hover {
+          background-color: white;
+          color: #333;
+          border: 2px #333 solid; }
 
 #experience .page-container > *:first-child {
   grid-row: 1 / span 3; }

@@ -217,6 +217,8 @@ img {
 #experience {
   .container #experience-heading {
     text-align: center;
+    margin-top: 1rem;
+    font-size: 3rem;
   }
 
   .page-container {
@@ -230,6 +232,49 @@ img {
 
       .experiences-container .work-done table li {
         padding-left: 1rem;
+      }
+
+      .experiences-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .work-done {
+          background: #f4f4f4;
+          border-left: 3px solid #f73859;
+          padding: 0.8rem;
+          border-radius: 10px;
+          box-shadow: 2px 2px 4px 0 #333;
+        }
+
+        .tech-skills {
+          background: #f4f4f4;
+          border-left: 3px solid #f73859;
+          padding: 0.8rem;
+          border-radius: 10px;
+          box-shadow: 2px 2px 4px 0 #333;
+          margin-top: 2rem;
+        }
+      }
+
+      .project {
+        background: #dddddd;
+        border-left: 3px solid #f73859;
+        padding: 0.8rem;
+        border-radius: 10px;
+        box-shadow: 2px 2px 4px 0 #333;
+
+        a {
+          padding: 0.5rem 1rem;
+          background-color: #333;
+          color: white;
+
+          &:hover {
+            background-color: white;
+            color: #333;
+            border: 2px #333 solid;
+          }
+        }
       }
     }
   }
