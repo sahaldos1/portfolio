@@ -108,13 +108,17 @@ img {
     display: grid;
     grid-template-areas: "bioimage bio bio" "aw1 aw2 aw3";
     grid-gap: 1.2rem; }
+    #about-main .container .about-info img {
+      border-radius: 10px;
+      box-shadow: 2px 2px 4px 0 #333; }
     #about-main .container .about-info .bio-image {
       grid-area: bioimage; }
     #about-main .container .about-info .bio {
       grid-area: bio;
       background: #f4f4f4;
       border-left: 3px solid #f73859;
-      padding: 0.8rem; }
+      padding: 0.8rem;
+      box-shadow: 2px 2px 4px 0 #333; }
       #about-main .container .about-info .bio h4 {
         padding-bottom: 0.5rem; }
         #about-main .container .about-info .bio h4 span {

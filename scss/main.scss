@@ -169,6 +169,11 @@ img {
 
       // Grid Area
 
+      img {
+        border-radius: 10px;
+        box-shadow: 2px 2px 4px 0 #333;
+      }
+
       .bio-image {
         grid-area: bioimage;
       }
@@ -178,6 +183,7 @@ img {
         background: #f4f4f4;
         border-left: 3px solid #f73859;
         padding: 0.8rem;
+        box-shadow: 2px 2px 4px 0 #333;
 
         h4 {
           padding-bottom: 0.5rem;
