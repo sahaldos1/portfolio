@@ -203,7 +203,8 @@ img {
 
 #contact-main {
   text-align: center;
-  padding: 3rem 0; }
+  padding: 3rem 0;
+  height: 70vh; }
   #contact-main .container .section-title {
     font-size: 2rem;
     display: block;
