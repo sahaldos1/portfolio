@@ -221,6 +221,14 @@ img {
     font-size: 3rem;
   }
 
+  #bottom-line {
+    height: 2px;
+    width: 5rem;
+    background: #f73859;
+    display: block;
+    margin: 0 auto 1rem auto;
+  }
+
   .page-container {
     display: grid;
     grid-template-columns: 5fr 2fr;
