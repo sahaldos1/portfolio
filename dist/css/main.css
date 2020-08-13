@@ -222,13 +222,25 @@ img {
     border-left: 3px solid #f73859;
     padding: 0.8rem;
     border-radius: 10px;
-    box-shadow: 2px 2px 4px 0 #333; }
+    box-shadow: 2px 2px 4px 0 #333;
+    margin-bottom: 3rem; }
     #contact-main .container .bio h4 {
-      padding-bottom: 0.5rem; }
+      padding-bottom: 1rem; }
       #contact-main .container .bio h4 span {
         border-bottom: 2px #f73859 solid; }
     #contact-main .container .bio p {
+      padding-bottom: 1.5rem;
       text-align: left; }
+      #contact-main .container .bio p a {
+        color: black;
+        border-bottom: 1px #f73859 solid;
+        transition: all 5ms ease-in; }
+        #contact-main .container .bio p a:hover {
+          font-weight: bold;
+          color: #f73859;
+          border-bottom: none; }
+      #contact-main .container .bio p span {
+        border-bottom: 1px #f73859 solid; }
 
 #main-footer {
   display: flex;

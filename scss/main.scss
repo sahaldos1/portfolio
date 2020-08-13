@@ -340,9 +340,10 @@ img {
       padding: 0.8rem;
       border-radius: 10px;
       box-shadow: 2px 2px 4px 0 #333;
+      margin-bottom: 3rem;
 
       h4 {
-        padding-bottom: 0.5rem;
+        padding-bottom: 1rem;
 
         span {
           border-bottom: 2px #f73859 solid;
@@ -350,7 +351,24 @@ img {
       }
 
       p {
+        padding-bottom: 1.5rem;
         text-align: left;
+
+        a {
+          color: black;
+          border-bottom: 1px #f73859 solid;
+          transition: all 5ms ease-in;
+
+          &:hover {
+            font-weight: bold;
+            color: #f73859;
+            border-bottom: none;
+          }
+        }
+
+        span {
+          border-bottom: 1px #f73859 solid;
+        }
       }
     }
   }
