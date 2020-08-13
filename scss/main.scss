@@ -311,6 +311,51 @@ img {
   }
 }
 
+// Contact me page
+#contact-main {
+  text-align: center;
+  padding: 3rem 0;
+
+  .container {
+    .section-title {
+      font-size: 2rem;
+      display: block;
+      padding-bottom: 0.5rem;
+      text-align: center;
+      font-weight: 100;
+      text-transform: uppercase;
+    }
+
+    .bottom-line {
+      height: 2px;
+      width: 3rem;
+      background: #f73859;
+      display: block;
+      margin: 0 auto 1rem auto;
+    }
+
+    .bio {
+      background: #f4f4f4;
+      border-left: 3px solid #f73859;
+      padding: 0.8rem;
+      border-radius: 10px;
+      box-shadow: 2px 2px 4px 0 #333;
+
+      h4 {
+        padding-bottom: 0.5rem;
+
+        span {
+          border-bottom: 2px #f73859 solid;
+        }
+      }
+
+      p {
+        text-align: left;
+      }
+    }
+  }
+}
+
 // Footer
 
 #main-footer {

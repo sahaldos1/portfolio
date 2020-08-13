@@ -201,6 +201,35 @@ img {
 #experience .page-container > *:first-child {
   grid-row: 1 / span 3; }
 
+#contact-main {
+  text-align: center;
+  padding: 3rem 0; }
+  #contact-main .container .section-title {
+    font-size: 2rem;
+    display: block;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    font-weight: 100;
+    text-transform: uppercase; }
+  #contact-main .container .bottom-line {
+    height: 2px;
+    width: 3rem;
+    background: #f73859;
+    display: block;
+    margin: 0 auto 1rem auto; }
+  #contact-main .container .bio {
+    background: #f4f4f4;
+    border-left: 3px solid #f73859;
+    padding: 0.8rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 0 #333; }
+    #contact-main .container .bio h4 {
+      padding-bottom: 0.5rem; }
+      #contact-main .container .bio h4 span {
+        border-bottom: 2px #f73859 solid; }
+    #contact-main .container .bio p {
+      text-align: left; }
+
 #main-footer {
   display: flex;
   flex-direction: row;
