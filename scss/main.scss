@@ -275,10 +275,6 @@ img {
         border-radius: 10px;
         box-shadow: 2px 2px 4px 0 #333;
 
-        #resume-link {
-          margin-top: 2rem;
-        }
-
         p {
           padding-left: 1.5rem;
           padding-bottom: 0.5rem;
@@ -295,14 +291,8 @@ img {
           margin-left: 3.9rem;
 
           &:hover {
-            background-color: white;
-            color: #333;
-            border: 2px #333 solid;
+            opacity: 0.95;
           }
-        }
-
-        .resume-link {
-          margin-top: 2rem;
         }
       }
     }
